@@ -3,6 +3,15 @@ package day02;
 public class Task4 {
 
     public static void main(String[] args) {
-        // Задача 4. Счётчик гостей: ++, ++, += 5, -- и печать после каждого шага (см. урок)
+        int visitors = 0;
+        System.out.println("Посетителей: " + visitors);
+        visitors++;
+        System.out.println("Посетителей: " + visitors);
+        visitors++;
+        System.out.println("Посетителей: " + visitors);
+        visitors += 5;
+        System.out.println("Посетителей: " + visitors);
+        visitors--;
+        System.out.println("Посетителей: " + visitors);
     }
 }
